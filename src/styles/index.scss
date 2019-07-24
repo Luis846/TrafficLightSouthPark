@@ -1,13 +1,97 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+/*
 
     You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
+
+
+    ...Or you can use the import command to include
     other sylesheets into your bunde as well, e.j:
-    
+
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.red-go{
+    background-image: url('https://media0.giphy.com/media/l2SqiabvJALzqO85W/source.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+
+}
+
+.green-go{
+    background-image:url('https://media1.giphy.com/media/l0HlF7fWL2WmncmIM/source.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+}
+
+.yellow-go{
+    background-image:url('https://media.giphy.com/media/l0HlONrFwUWiYhqSc/giphy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+}
+.pole{
+    background: #000;
+    width: 20px;
+    margin: 0 auto;
+    height: 100px;
+    // position: absolute;
+    // top: 0;
+    // right: 49%;
+    z-index: -2000;
+}
+
+#container{
+    background: #000;
+    width:200px;
+    height: 550px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.redlight,
+.yellowlight,
+.greenlight{
+  margin-left: 28px;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.redlight{
+    //  position: absolute;
+    // top: 10%;
+    background: red;
+
+}
+
+
+
+
+.yellowlight{
+    // position: absolute;
+    // top: 30%;
+    background: yellow;
+}
+
+.greenlight{
+    // position: absolute;
+    // top: 50%;
+    background: green;
+}
+
+
+.light-shadow-red{
+     box-shadow: 0 0 60px 30px red;
+}
+.light-shadow-yellow{
+    box-shadow: 0 0 60px 30px yellow;
+}
+
+.light-shadow-green{
+    box-shadow: 0 0 60px 30px green;
+}
